@@ -33,6 +33,7 @@ int main() {
 
     int index_of_adjective = user_name.size() % adjective.size();
     int index_of_ending = user_name.size() % ending.size(); 
+    std::cout << endl << "Here is your description:" << endl;
     std::cout << user_name << ", the " << adjective.at(index_of_adjective) << " " << noun.at(season_of_birth) << " that " << ending.at(index_of_ending) << endl;
     return 0;
 }
